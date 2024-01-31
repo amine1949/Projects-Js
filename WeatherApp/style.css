@@ -1,7 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@400;700&family=Pixelify+Sans&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Andika', sans-serif;
     box-sizing: border-box;
 }
 body{
@@ -85,4 +89,15 @@ body{
 .humidity, .wind{
     font-size: 28px;
     margin-top: -6px;
+}
+.weather{
+    display: none;
+}
+
+.error{
+    font-size: 25px;
+    color: rgb(180, 0, 0);
+    font-weight: 600;
+    margin-top: 20px;
+    display: none;
 }
