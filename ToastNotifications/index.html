@@ -6,14 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2f2d33a415.js" crossorigin="anonymous"></script>
     <title>Toast Notifications</title>
 </head>
 
 <body>
     <div class="buttons">
-        <button>Success</button>
-        <button>Error</button>
-        <button>Invalid</button>
+        <button onclick="showToast(successMsg)">Success</button>
+        <button onclick="showToast(errorMsg)">Error</button>
+        <button onclick="showToast(invalidMsg)">Invalid</button>
     </div>
 
     <div id="toastBox"></div>
